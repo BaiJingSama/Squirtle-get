@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>杰尼龟写给你看</title>
+
+</head>
+
+<body>
+    <style>
+        #text {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 40vh;
+            overflow-y: auto;
+            /* 不超出范围 */
+        }
+
+        #text::-webkit-scrollbar {
+            display: none;
+        }
+
+        #squirtle {
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            height: 60vh;
+        }
+
+        #html {
+            display: none;
+        }
+
+        #buttons {
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        #buttons>button {
+            margin-bottom: 10px;
+            padding: 6px 10px;
+        }
+    </style>
+    <div id="text"></div>
+    <style id="html"></style>
+    <div id="buttons">
+        <button id="btnPause">暂停</button>
+        <button id="btnPlay">播放</button>
+        <button id="btnSlow">慢速</button>
+        <button id="btnNormal">中速</button>
+        <button id="btnFast">快速</button>
+        <button id="btnAll">全部显示</button>
+        <button id="btnRenew">重新开始</button>
+    </div>
+    <div id="squirtle">
+        <div class="Squirtle">
+            <header class="head">
+                <div class="headLeft"></div>
+                <div class="eyesBox">
+                    <div class="eyes left"></div>
+                    <div class="eyes right"></div>
+                </div>
+                <div class="nose"></div>
+                <div class="faceBox">
+                    <div class="face left"></div>
+                    <div class="face right"></div>
+                </div>
+            </header>
+            <div class="soma">
+                <div class="body">
+                    <div class="big liftTop"></div>
+                    <div class="big rightTop"></div>
+                    <div class="big liftBottom"></div>
+                    <div class="smallTop"></div>
+                    <div class="smallRight"></div>
+                    <div class="smallBottom"></div>
+                    <div class="smallLeft"></div>
+                </div>
+                <div class="hand">
+                    <div class="leftHand">
+                        <div class="leftHandOne"></div>
+                        <div class="leftHandTow"></div>
+                        <div class="leftHandThree"></div>
+                    </div>
+                    <div class="rightHand">
+                        <div class="rightHandOne"></div>
+                        <div class="rightHandTow"></div>
+                        <div class="rightHandThree"></div>
+                    </div>
+                </div>
+                <div class="leg">
+                    <div class="leftLeg"></div>
+                    <div class="rightLeg"></div>
+                </div>
+            </div>
+            <div class="back">
+                <div class="topBack"></div>
+                <div class="bottomBack"></div>
+            </div>
+            <div class="tail">
+                <div class="leftTail"></div>
+                <div class="rightTail">
+                    <div class="smallTail"></div>
+                </div>
+                <div class="leftTail2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+
+</html>
