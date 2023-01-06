@@ -180,7 +180,7 @@ btnRenew.onclick = function () {
     text.innerText = '';
     play();
 };
-},{}],"C:\\Users\\白境\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{}],"C:\\Users\\jackie\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -209,7 +209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50238' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53528' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -350,5 +350,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["C:\\Users\\白境\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js","test.js"], null)
+},{}]},{},["C:\\Users\\jackie\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\parcel\\src\\builtins\\hmr-runtime.js","test.js"], null)
 //# sourceMappingURL=/test.88ffdbd0.map
